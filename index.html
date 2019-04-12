@@ -9,24 +9,27 @@
     <meta charset="utf-8">
     <title>Epic Pizza</title>
   </head>
-  <body background="img/wall1.jpg" class="container">
+  <body background="img/wall1.jpg">
+    <div class="container">
+      <form class="form-group" id="pieInput">
       <div class="jumbotron">
-        <h1>Jules and Son's Pies for your Face</h1>
-      </div>
-      <div class="row">
-        <div class="col-3">
-          <h2>American Sizes</h2>
-          <div id="size">
-            <ul>
-              <li><input type="checkbox" name="size" value="small" /><label for="text1">Small</label></li>
-              <li><input type="checkbox" name="size" value="medium" /><label for="text2">Medium</label></li>
-              <li><input type="checkbox" name="size" value="large" /><label for="text3">Large</label></li>
-              <li><input type="checkbox" name="size" value="cadillac" /><label for="text4">Cadillac</label></li>
-            </ul>
-          </div>
+      <h1>Jules and Son's Pies for your Face</h1>
         </div>
-        <div class="col-3">
-          <div id="price">
+          <div class="row">
+            <div class="col-3">
+              <h2>American Sizes</h2>
+              <div id="size">
+              <ul>
+                <li><input type="checkbox" name="size" value="small" /><label for="text1">Small</label></li>
+                <li><input type="checkbox" name="size" value="medium" /><label for="text2">Medium</label></li>
+                <li><input type="checkbox" name="size" value="large" /><label for="text3">Large</label></li>
+                <li><input type="checkbox" name="size" value="cadillac" /><label for="text4">Cadillac</label></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div id="price">
             <h2>Cheap Prices</h2>
             <ul>
               <li><input type="checkbox" name="price" value="five" /><label for="text1">$5</label></li>
@@ -34,10 +37,10 @@
               <li><input type="checkbox" name="price" value="nine" /><label for="text3">$9</label></li>
               <li><input type="checkbox" name="price" value="twenty" /><label for="text4">$20</label></li>
             </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div id="sauce">
+          <div class="col-3">
+            <div id="sauce">
             <h2>One Sauce</h2>
             <ul>
               <li><input type="checkbox" name="sauce" value="sauceless" /><label for="text1">Sauceless</label></li>
@@ -45,10 +48,10 @@
               <li><input type="checkbox" name="sauce" value="regular" /><label for="text3">Regular</label></li>
               <li><input type="checkbox" name="sauce" value="royale" /><label for="text4">Royale</label></li>
             </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-3">
-          <div id="toppings">
+          <div class="col-3">
+            <div id="toppings">
             <h2>Straight Up Toppings</h2>
             <ul>
               <li><input type="checkbox" name="toppings" value="topless" /><label for="text1">Topless</label></li>
@@ -56,23 +59,25 @@
               <li><input type="checkbox" name="toppings" value="roni" /><label for="text3">Roni</label></li>
               <li><input type="checkbox" name="toppings" value="skinny" /><label for="text4">Skinny</label></li>
             </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div id="delivery">
-          <div class="col-lg-5">
-            <h1><input type="checkbox" name="delivery" value="deliver" /><label for="text1">Deliver</label></h1>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <h1>or</h1>
+          <div class="row">
+            <div id="delivery">
+              <div class="col-lg-5">
+              <h1><input type="checkbox" name="delivery" value="deliver" /><label for="text1">Deliver</label></h1>
+              </div>
+              <div class="col-lg-4">
+              <h1>or</h1>
+              </div>
+              <div class="col-lg-3">
+              <h1><input type="checkbox" name="delivery" value="pick-up" /><label for="text1">Pick-up</label></h1>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <h1><input type="checkbox" name="delivery" value="pick-up" /><label for="text1">Pick-up</label></h1>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
+        <div class="jumbotron">
         <h4>Your order will be "____".  Thank You for cooperating!</h4>
-      </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

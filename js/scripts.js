@@ -1,5 +1,4 @@
 //business logic for Customer
-
 function Customer() {
 this.pie = []
 this.pieId = -1
@@ -44,5 +43,5 @@ Pie.prototype.addPrice = function(price) {
 //user interfact logic
 $(document).ready(function() {
 
-  
+
 })
