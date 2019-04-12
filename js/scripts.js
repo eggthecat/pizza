@@ -42,4 +42,7 @@ Pie.prototype.addPrice = function(price) {
 
 
 //user interfact logic
-$(document).ready(function() {})
+$(document).ready(function() {
+
+  
+})
