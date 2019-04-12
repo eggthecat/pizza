@@ -12,3 +12,8 @@ body {
   border-color: red;
   border-width: 5px;
 }
+
+.jumbotron {
+  opacity: 0.5;
+  text-shadow: .05;
+}
