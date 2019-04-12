@@ -5,3 +5,10 @@ body {
   font-family: 'Holtwood One SC', serif;
   background-size: cover;
 }
+
+.column {
+  margin: 10px;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
