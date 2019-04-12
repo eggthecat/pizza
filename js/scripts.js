@@ -1,9 +1,11 @@
 //business logic for Pizza Order
 
-function pizzaOrder ()
-
+function customer() {
+this.contact = []
+this.currentId = -1
+}
 pizzaOrder.prototype.addOrder = function(order){
 
 }
 
-//business logic for 
+//business logic for
