@@ -1,6 +1,3 @@
-e-mail:
-
-https://docs.google.com/document/d/1XhPIt8LJtXKtmN11SUGkYVM4ZnDHIlQA1XDu86TS9pw/edit?usp=sharing
 
 Project Link:
 
@@ -19,7 +16,7 @@ _4/12/19 - Project is a shell of it's intended purpose.  HTML and CSS is develop
 ## Setup/Installation Requirements
 
 * _Observe_
-_click away_
+*_click away_
 
 ## Known Bugs
 
